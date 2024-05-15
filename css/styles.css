@@ -2,6 +2,7 @@
     font-family: "Roboto", "Raleway", sans-serif;
     color: #2e2f42;
 }
+
 body{
     background-color: #fff;
     font-family: "Roboto", sans-serif;
@@ -11,32 +12,45 @@ body{
     width: 1440px;
     height: 3300px;
 }
+
 ul, ol{
     list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
 }
+
 h1, h2, h3, h4, h5, h6{
     margin: 0;
 }
+
 p{
     margin: 0;
 }
+
 a{
     text-decoration: none;
 }
+
 img{
     display: block;
 }
 
-/* header */
-.pagt-header{
+                    /* header */
+.page-header{
     height: 72px;
 }
+
 .navigation{
+    width: 452px;
+    margin-top: 24px;
+    margin-left: 156px;
+    position: absolute;
     display: flex;
+    gap: 76px;
+    
 }
+
 .logo{
     font-weight: 700;
     font-family: "Raleway", sans-serif;
@@ -46,12 +60,16 @@ img{
     text-transform: uppercase;
     color: #4d5ae5;
 }
+
 .part-logo{
     color: #2e2f42;
 }
+
 .navigation-list{
-    
+    display: flex;
+    gap: 40px;
 }
+
 .navigation-menu{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -60,11 +78,16 @@ img{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.hom-address{
-}
+
 .list-contacts{
-    
+    width: 344px;
+    position: absolute;
+    display: flex;
+    gap: 40px;
+    margin-top: 24px;
+    margin-left: 940px;
 }
+
 .contacts{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -74,24 +97,29 @@ img{
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 .contacts:hover,
 .contacts:focus{
     color: #404bbf;
 }
+
 .navigation-menu:hover, 
 .navigation-menu:focus{
 color: #404bbf;
 }
+
 .navigation-menu:active{
     color: #404bbf;
 }
-/*main*/
 
-/*Effective Solutions*/
+                        /*main*/
+
+                    /*Effective Solutions*/
 .solutions{
     height: 600px;
     background-color: #2e2f42;
 }
+
 .effective-solutions{
     font-weight: 700;
     font-size: 56px;
@@ -104,6 +132,7 @@ color: #404bbf;
     height: 120px;
     margin: 188px 472px 292px 472px;
 }
+
 .order-button{
     cursor: pointer;
     font-family: "Roboto", sans-serif;
@@ -123,17 +152,29 @@ color: #404bbf;
     margin: 356px 635px 188px 636px;
     
 }
+
 .order-button:hover, .order-button:focus{
     background-color: #404BBF;
 }
-/*our qualities*/
+
+                    /*our qualities*/
 .qualities{
     height: 344px;
     display: flex;
 }
-.our{
-    display: none;
-}
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+} /*скрывает текст*/
 
 .list-qualities{
     width: 1128px;
@@ -152,6 +193,7 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #2e2f42;;
 }
+
 .list-qualities .paragraph-qualities{
     font-weight: 400;
     font-size: 16px;
@@ -160,15 +202,17 @@ color: #404bbf;
     color: #434455;
     padding-top: 8px;
 }
+
 .strategy, .punctuality, 
 .diligence, .technologies{
     width: 264px;
 }
-/*Our Team*/
+                    /*Our Team*/
 .team{
     height: 732px;
     background-color: #f4f4fd;
 }
+
 .team-our{
     font-weight: 700;
     text-transform: capitalize;
@@ -182,11 +226,13 @@ color: #404bbf;
     padding-top: 120px;
     margin-left: 639px;
 }
+
 .team-list{
     display: flex;
     gap: 24px;
     margin: 111px 156px 120px 156px;
 }
+
 .team-list .employees{
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
@@ -194,8 +240,8 @@ color: #404bbf;
     height: 380px;
     background: #fff;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-
 }
+
 .team-list .title-team-list{
     font-weight: 500;
     font-size: 20px;
@@ -204,6 +250,7 @@ color: #404bbf;
     color: #2e2f42;
     margin-top: 32px;
 }
+
 .team-list .paragraph-team-list{
     font-weight: 400;
     font-size: 16px;
@@ -212,15 +259,17 @@ color: #404bbf;
     color: #434455;
     margin-top: 8px;
 }
+
 .team-list .title-team-list,
 .team-list .paragraph-team-list{
     text-align: center;
 }
 
-/*Our Portfolio*/
+                    /*Our Portfolio*/
 .portfolio{
     height: 1240px;
 }
+
 .list-portfolio{
     width: 1128px;
     height: 1000px;
@@ -229,8 +278,8 @@ color: #404bbf;
     flex-wrap: wrap;
     margin-top: 120px;
     margin-left: 156px;
-
 }
+
 .title-portfolio{
     font-weight: 700;
     text-transform: capitalize;
@@ -254,6 +303,7 @@ color: #404bbf;
     margin-top: 32px;
     margin-left: 16px;
 }
+
 .list-portfolio .paragraph-list-portfolio{
     font-weight: 400;
     font-size: 16px;
@@ -273,12 +323,14 @@ color: #404bbf;
     height: 420px;
     background: #fff;
 }
-/*footer*/
+
+                    /*footer*/
 .footers{
     background-color: #2e2f42;
     color: white;
     height: 312px;
 }
+
 .logo-footer{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -290,11 +342,12 @@ color: #404bbf;
     position: absolute;
     margin-left: 156px;
     margin-top: 100px;
-
 }
+
 .part-logo-footer{
     color: #f4f4fd;
 }
+
 .text-footer{
     font-weight: 400;
     font-size: 16px;
