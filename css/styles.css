@@ -112,6 +112,7 @@ color: #404bbf;
 /*Effective Solutions*/
 .solutions{
     width: 1440px;
+    height: 600px;
     background-color: #2e2f42;
 }
 .effective-solutions{
@@ -121,11 +122,10 @@ color: #404bbf;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    position: absolute;
     width: 496px;
     height: 120px;
-    margin-top: 188px;
-    
-    
+    margin: 188px 472px 292px 472px;
 }
 .order-button{
     cursor: pointer;
@@ -139,10 +139,11 @@ color: #404bbf;
     border-radius: 4px;
     border: 0;
     padding: 16px 32px;
-    width: 169px;
+    width: 170px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
+    margin: 356px 635px 188px 636px;
     
 }
 .order-button:hover, .order-button:focus{
@@ -164,7 +165,8 @@ color: #404bbf;
     display: flex;
     gap: 24px;
     margin: auto;
-    margin-top: 120px;
+    margin-top: 123px;
+    margin-bottom: 120px;
 }
 
 .list-qualities .title-qualities{
@@ -180,6 +182,7 @@ color: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-top: 8px;
 }
 .strategy, .punctuality, 
 .diligence, .technologies{
@@ -198,24 +201,44 @@ color: #404bbf;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;    
+    color: #2e2f42;
+    width: 163px;
+    height: 40px;
+    padding-top: 120px;
+    margin-left: 639px;
 }
-.list-team>li>h3{
+.team-list{
+    display: flex;
+    gap: 24px;
+    margin: 111px 156px 120px 156px;
+}
+.team-list .employees{
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+    background: #fff;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+
+}
+.team-list .title-team-list{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-top: 32px;
 }
-.list-team>li>p{
+.team-list .paragraph-team-list{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-top: 8px;
 }
-.employees{
-    background: #fff;
+.team-list .title-team-list,
+.team-list .paragraph-team-list{
     text-align: center;
 }
 
@@ -231,6 +254,7 @@ color: #404bbf;
     gap: 24px;
     flex-wrap: wrap;
     margin-top: 120px;
+    margin-left: 156px;
 
 }
 .title-portfolio{
@@ -241,38 +265,39 @@ color: #404bbf;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    width: 219px;
+    height: 40px;
+    margin-top: 120px;
+    margin-left: 611px;
 }
-.list-portfolio>li>h3{
+
+.list-portfolio .title-list-portfolio{
     letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
+    margin-top: 32px;
+    margin-left: 16px;
 }
-.list-portfolio>li>p{
+.list-portfolio .paragraph-list-portfolio{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 16px;
 }
-.banking{
-    
-}
-.cashless{
-    
-}
-.meditation{
-    
-}
-.taxi{
-    
-}
-.screen{
-    
-}
-.online{
-    
+
+.list-portfolio .services{
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    width: 360px;
+    height: 420px;
+    background: #fff;
 }
 /*footer*/
 .footers{
