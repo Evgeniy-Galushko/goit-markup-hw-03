@@ -329,6 +329,7 @@ color: #404bbf;
     background-color: #2e2f42;
     color: white;
     height: 312px;
+    
 }
 
 .logo-footer{
@@ -342,6 +343,8 @@ color: #404bbf;
     position: absolute;
     margin-left: 156px;
     margin-top: 100px;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .part-logo-footer{
