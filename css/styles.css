@@ -336,7 +336,6 @@ color: #404bbf;
     color: white;
     height: 312px;
     padding: 100px 0;
-    
 }
 
 .logo-footer{
@@ -355,6 +354,7 @@ color: #404bbf;
 
 .part-logo-footer{
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .text-footer{
