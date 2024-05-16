@@ -44,11 +44,9 @@ img{
 
 .navigation{
     width: 452px;
-    margin-top: 24px;
+    padding-top: 24px;
     margin-left: 156px;
-    position: absolute;
-    display: flex;
-    gap: 76px;
+    align-items: center;
     
 }
 
@@ -60,6 +58,7 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .part-logo{
@@ -69,6 +68,7 @@ img{
 .navigation-list{
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .navigation-menu{
@@ -78,6 +78,8 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    width: 1158px;
+    padding: 0 15px;
 }
 
 .list-contacts{
