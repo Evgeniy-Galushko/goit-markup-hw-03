@@ -51,6 +51,11 @@ img{
     height: 24px;
         width: 482px;
         display: flex;
+}
+
+.containers{
+    display: flex;
+    padding: 0 15px;
 
 }
 
@@ -100,12 +105,11 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 24px 0
 }
-
-.hom-address{
-    width: 344px;
-    margin-left: 940px;
-
+.list-contacts{
+    margin-left: 332px;
+    padding-top: 24px;
 }
 
 .contacts:hover,
