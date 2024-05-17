@@ -44,12 +44,6 @@ img{
     padding: 0 15px;
 }
 
-.containers{
-    display: flex;
-    width: 1158px;
-    padding: 0 15px;
-}
-
 .navigation{
     align-items: center;
     padding-top: 24px;
