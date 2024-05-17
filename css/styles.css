@@ -38,19 +38,27 @@ img{
 
                     /* header */
 .page-headers{
-        border-bottom: 1px solid #fcede7;
+    border-bottom: 1px solid #fcede7;
     height: 72px;
-        width: 800px;
-        padding: 0 15px
+    width: 800px;
+    padding: 0 15px;
+}
+
+.containers{
+    display: flex;
+    width: 1158px;
+    padding: 0 15px;
 }
 
 .navigation{
+    align-items: center;
     padding-top: 24px;
     margin-left: 141px;
     height: 24px;
         width: 482px;
         display: flex;
-        padding: 0 15px
+        
+
         
 }
 
@@ -73,7 +81,7 @@ img{
 .navigation-list{
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    padding-top: 24px;
 }
 
 .navigation-menu{
@@ -83,7 +91,6 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    
 }
 
 .list-contacts{
