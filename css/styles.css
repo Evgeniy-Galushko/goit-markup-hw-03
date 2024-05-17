@@ -49,15 +49,15 @@ img{
     padding-top: 24px;
     margin-left: 141px;
     height: 24px;
-        width: 482px;
-        display: flex;
+    width: 482px;
+    display: flex;
 }
 
 .containers{
     display: flex;
     padding: 0 15px;
     width: 1158px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .logo{
@@ -107,7 +107,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding: 24px 0
+    padding: 24px 0;
 }
 
 .contacts:hover,
