@@ -37,17 +37,20 @@ img{
 }
 
                     /* header */
-.page-header{
-    border-bottom: 1px solid #fcede7;
+.page-headers{
+        border-bottom: 1px solid #fcede7;
     height: 72px;
+        width: 1158px;
+        padding: 0 15px
 }
 
 .navigation{
-    width: 452px;
     padding-top: 24px;
-    margin-left: 156px;
+    margin-left: 141px;
     align-items: center;
-    
+        display: flex;
+        width: 1158px;
+        padding: 0 15px
 }
 
 .logo{
@@ -87,7 +90,6 @@ img{
     position: absolute;
     display: flex;
     gap: 40px;
-    margin-top: 24px;
     margin-left: 940px;
 }
 
