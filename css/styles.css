@@ -54,6 +54,7 @@ img{
 }
 
 .containers{
+    border-bottom: 1px solid #fcede7;
     display: flex;
     padding: 0 15px;
     width: 1158px;
