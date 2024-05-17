@@ -40,17 +40,18 @@ img{
 .page-headers{
         border-bottom: 1px solid #fcede7;
     height: 72px;
-        width: 1158px;
+        width: 800px;
         padding: 0 15px
 }
 
 .navigation{
     padding-top: 24px;
     margin-left: 141px;
-    align-items: center;
+    height: 24px;
+        width: 482px;
         display: flex;
-        width: 1158px;
         padding: 0 15px
+        
 }
 
 .logo{
@@ -62,6 +63,7 @@ img{
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    padding-top: 24px;
 }
 
 .part-logo{
@@ -81,16 +83,14 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    width: 1158px;
-    padding: 0 15px;
+    
 }
 
 .list-contacts{
     width: 344px;
-    position: absolute;
     display: flex;
     gap: 40px;
-    margin-left: 940px;
+    
 }
 
 .contacts{
@@ -101,6 +101,12 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.hom-address{
+    width: 344px;
+    margin-left: 940px;
+
 }
 
 .contacts:hover,
