@@ -38,7 +38,7 @@ img{
 
                     /* header */
 .page-headers{
-    border-bottom: 1px solid #fcede7;
+    border-bottom: 1px solid #e7e9fc;
     height: 72px;
     width: 800px;
     padding: 0 15px;
@@ -57,7 +57,7 @@ img{
     display: flex;
     padding: 0 15px;
     width: 1158px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .logo{
