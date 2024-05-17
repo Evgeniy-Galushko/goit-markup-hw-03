@@ -57,9 +57,12 @@ img{
     display: flex;
     padding: 0 15px;
     width: 1158px;
-}
-.container{
     margin: 0 auto;
+}
+
+.container{
+
+
 }
 
 .logo{
