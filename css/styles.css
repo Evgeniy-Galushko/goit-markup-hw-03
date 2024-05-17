@@ -59,6 +59,9 @@ img{
     width: 1158px;
     margin: 0 auto;
 }
+.container{
+    margin: 0 auto;
+}
 
 .logo{
     font-weight: 700;
