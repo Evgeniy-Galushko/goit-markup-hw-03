@@ -42,7 +42,6 @@ img{
     height: 72px;
     width: 800px;
     padding: 0 15px;
-    margin: 0 auto;
 }
 
 .navigation{
@@ -61,6 +60,7 @@ img{
 }
 .container{
 }
+
 .logo{
     font-weight: 700;
     font-family: "Raleway", sans-serif;
