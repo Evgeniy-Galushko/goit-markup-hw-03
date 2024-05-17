@@ -56,7 +56,7 @@ img{
 .containers{
     display: flex;
     padding: 0 15px;
-
+    width: 1158px;
 }
 
 .logo{
@@ -94,7 +94,8 @@ img{
     width: 344px;
     display: flex;
     gap: 40px;
-    
+    padding: 24px 0;
+    margin-left: 332px;
 }
 
 .contacts{
@@ -106,10 +107,6 @@ img{
     letter-spacing: 0.02em;
     color: #434455;
     padding: 24px 0
-}
-.list-contacts{
-    margin-left: 332px;
-    padding-top: 24px;
 }
 
 .contacts:hover,
